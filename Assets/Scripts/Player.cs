@@ -6,10 +6,10 @@ public class Player : MonoBehaviour
 {
     public float speed;
     private Rigidbody2D rigidBody;
-   
+
     void Start()
     {
-        rigidBody = GetComponent<Rigidbody2D>(); 
+        rigidBody = GetComponent<Rigidbody2D>();       
     }
 
     void Update()
