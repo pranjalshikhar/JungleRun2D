@@ -14,10 +14,10 @@ public class CoinsGenerator : MonoBehaviour
             return;
             
         int numberOfCoins = (int) Random.Range(3f, groundWidth);
-        float y = Random.Range(2,4);
         
         for(int i=0; i<numberOfCoins; i++) {
             GameObject coin = coinPooler.GetPooledGameObject();
+            float y = Random.Range(2,4);
 
             
             
